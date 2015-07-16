@@ -1,0 +1,58 @@
+generateur:
+    resource: "@GenerateurBundle/Resources/config/routing.yml"
+    prefix:   /{_locale}/paris
+
+chaire_team:
+    resource: "@ChaireTeamBundle/Resources/config/routing.yml"
+    prefix:   /{_locale}/paris
+
+
+chaire_social_annotation:
+    resource: "@ChaireAccueilBundle/Controller/SocialNetworkController.php"
+    type:     annotation
+    prefix:   /{_locale}/paris/admin
+
+chaire_highlight_annotation:
+    resource: "@ChaireAccueilBundle/Controller/HighlightController.php"
+    type:     annotation
+    prefix:   /{_locale}/paris/admin
+
+chaire_team_annotation:
+    resource: "@ChaireTeamBundle/Controller/TeamController.php"
+    type:     annotation
+    prefix:   /{_locale}/paris/admin
+
+chaire_formation_annotation:
+    resource: "@ChaireFormationBundle/Controller/FormationController.php"
+    type:     annotation
+    prefix:   /{_locale}/paris/admin
+
+
+chaire_accompagnement_annotation:
+    resource: "@ChaireAccueilBundle/Controller/AccompagnementController.php"
+    type:     annotation
+    prefix:   /{_locale}/paris/admin
+
+
+chaire_team_annotation:
+    resource: "@ChaireAdminBundle/Controller/TeamController.php"
+    type:     annotation
+    prefix:   /{_locale}/paris/admin
+
+
+chaire_formation:
+    resource: "@ChaireFormationBundle/Resources/config/routing.yml"
+    prefix:   /{_locale}/paris
+
+chaire_admin:
+    resource: "@ChaireAdminBundle/Resources/config/routing.yml"
+    prefix:   /{_locale}/paris/admin
+
+chaire_event:
+    resource: "@ChaireEventBundle/Resources/config/routing.yml"
+    prefix:   /{_locale}/paris
+
+chaire_accueil:
+    resource: "@ChaireAccueilBundle/Resources/config/routing.yml"
+    prefix:   /{_locale}/paris
+

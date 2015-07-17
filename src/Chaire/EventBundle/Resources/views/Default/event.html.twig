@@ -16,7 +16,15 @@
     {# photo event #}
 <div class="row pad">
 
-    <img id="chaireevent" class="img_center" src="{{ asset('bundles/chaireevent/images/photoevenement.jpg') }}"/>
+
+    {% if loc=='en' %}
+        <img id="chaireevent" class="img_center" src="{{ asset('bundles/chaireevent/images/our_events_image_eng.png') }}"/>
+
+    {% else %}
+        <img id="chaireevent" class="img_center" src="{{ asset('bundles/chaireevent/images/nos_evenement_image_fr.png') }}"/>
+    {% endif %}
+
+
 </div>
 
     <div class="row pad">

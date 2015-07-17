@@ -65,11 +65,11 @@
             <a class=" {% if page_active==4 %} page_actif {% endif %}text barside" id="accompagnement" href={{ path('accompagnement') }}>Accompagnement</a>
 
             <img  class="img_center barre" src="{{ asset('bundles/chaireaccueil/images/petitcarre.png') }}"/>
-
-            <a class="text barside {% if page_active==2 %} page_actif {% endif %} " id="team" href={{ path('chaire_team_homepage') }}>ChaireEEE team</a>
-            <img  class="img_center barre" src="{{ asset('bundles/chaireaccueil/images/petitcarre.png') }}"/>
-
             <a class="text barside" id="team" href=>Recherche</a>
+
+            <img  class="img_center barre" src="{{ asset('bundles/chaireaccueil/images/petitcarre.png') }}"/>
+            <a class="text barside {% if page_active==2 %} page_actif {% endif %} " id="team" href={{ path('chaire_team_homepage') }}>ChaireEEE team</a>
+
             <img  class="img_center barre" src="{{ asset('bundles/chaireaccueil/images/petitcarre.png') }}"/>
 
             <a class="text barside" id="team" href={{ url('chaire_accueil_homepage', {_locale: 'fr'}) }}>fr</a>

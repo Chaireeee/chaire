@@ -40,7 +40,7 @@
                 <div style="position:relative;">
             <img id="manifesto" class="img_center" src="{{ asset('bundles/chaireaccueil/images/image_video_manifesto.jpg') }}"/>
 
-            <img id="youtube"  data-toggle="modal" data-target="#myModal"  src="{{ asset('bundles/chaireaccueil/images/bouton_youtube_video.png') }}"/>
+            <img id="youtube"  data-toggle="modal" data-target="#myModal"  src="{{ asset('bundles/chaireaccueil/images/PLAY_BUTTON.png') }}"/>
             </div>
         </div>
 
@@ -61,25 +61,32 @@
                     <div class=" col-md-6">
                         <a href="{{ path('chaire_event_homepage') }}">
                         <img class="img_center activite"
-                             src="{{ asset('bundles/chaireaccueil/images/image_evenements.png') }}"/>
+                             src="{{ asset('bundles/chaireaccueil/images/evenement.png') }}"/>
+                            <h3 class="text_center">{% trans %}welcome.event{% endtrans %}</h3>
                         </a>
+
                     </div>
                     <div class=" col-md-6">
                         <a href="{{ path('chaire_formation_homepage') }}">
                         <img class="img_center activite"
-                             src="{{ asset('bundles/chaireaccueil/images/image_formations.png') }}"/>
+                             src="{{ asset('bundles/chaireaccueil/images/formation.png') }}"/>
+                            <h3 class="text_center">{% trans %}welcome.formation{% endtrans %}</h3>
                         </a>
+
                     </div>
                     <div class=" col-md-6">
-                        <a href="{{ path('chaire_event_homepage') }}">
+                        <a href="{{ path('accompagnement') }}">
                         <img class="img_center activite"
-                             src="{{ asset('bundles/chaireaccueil/images/image_accompagnement.png') }}"/>
+                             src="{{ asset('bundles/chaireaccueil/images/accompagenement.png') }}"/>
+                            <h3 class="text_center">{% trans %}welcome.acc{% endtrans %}</h3>
                         </a>
+
                     </div>
                     <div class=" col-md-6">
-                        <a href="{{ path('chaire_event_homepage') }}">
+                        <a href="">
                         <img class="img_center activite"
-                             src="{{ asset('bundles/chaireaccueil/images/image_recherche.png') }}"/>
+                             src="{{ asset('bundles/chaireaccueil/images/recherche.png') }}"/>
+                            <h3 class="text_center">{% trans %}welcome.recherche{% endtrans %}</h3>
                         </a>
                     </div>
                 </div>

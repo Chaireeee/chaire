@@ -38,3 +38,8 @@ admin.addevent: Add an event
 admin.addformation: add a formation
 admin.addteammember: Add a team member
 admin.addaccompagnement: Add accompagnement
+
+welcome.event: Event
+welcome.acc: Help
+welcome.recherche: Research
+welcome.formation: Formation

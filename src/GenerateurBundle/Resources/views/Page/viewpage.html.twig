@@ -106,7 +106,7 @@
 <style>
 
     .homie {
-        background: url(http://localhost{{ asset('uploads/img/generateur/'~page.homie.id~'.'~page.homie.url) }});
+        background: url(http://{{ app.request.server.get("SERVER_NAME") }}{{ asset('uploads/img/generateur/'~page.homie.id~'.'~page.homie.url) }});
         min-height: 700px;
         margin-top: -20px;
         background-size: cover;

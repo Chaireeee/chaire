@@ -10,7 +10,15 @@
     {# team photo #}
     <div class="row pad">
 
-        <img id="chaireteam" class="img_center" src="{{ asset('bundles/chaireteam/images/photo_page_equipe.jpg') }}"/>
+        {% if loc=='en' %}
+
+            <img id="chaireteam" class="img_center" src="{{ asset('bundles/chaireteam/images/chaireee_team_image_eng.png') }}"/>
+        {% else %}
+            <img id="chaireteam" class="img_center" src="{{ asset('bundles/chaireteam/images/image_equipe_fr.png') }}"/>
+        {% endif %}
+
+
+
 
 
     </div>

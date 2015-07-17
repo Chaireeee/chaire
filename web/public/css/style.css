@@ -222,4 +222,9 @@ a:focus,a:hover{
 }
 
 
+.flags{
 
+width:30px;
+    display: inline-block;
+
+}
